@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eef2f6;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  max-width: 500px;
+  padding: 24px;
+}
+
+h1 {
+  text-align: center;
+  color: #1a1a1a;
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+
+#texto {
+  width: 100%;
+  min-height: 150px;
+  padding: 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 2px solid #d1d5db;
+  border-radius: 10px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+#texto:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.resultados {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.tarjeta {
+  flex: 1;
+  min-width: 100px;
+  background-color: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.tarjeta span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.tarjeta p {
+  margin: 4px 0 0;
+  font-size: 0.8rem;
+  color: #6b6b6b;
+}
+
+.tarjeta span.excedido {
+  color: red;
+}
+
